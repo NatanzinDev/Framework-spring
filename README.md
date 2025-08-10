@@ -8,6 +8,7 @@ application properties → Serve para colocar os parâmetros de informações do
 
 Controller é responsável por expor a API para que o browser acesse.
 
+### Erros
 <ol>
   <li>Os pacotes tem que está corretamente organizados na hierarquia de pacotes, para evitar erros com not found</li>
 </ol>
