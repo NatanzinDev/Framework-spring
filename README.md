@@ -8,7 +8,9 @@ application properties → Serve para colocar os parâmetros de informações do
 
 Controller é responsável por expor a API para que o browser acesse.
 
-Atributos em que vem de uma requisição na assinitura do metodo deve ter a notação @RequesBody
+Classe controller deve conter a notação @RestController
+
+Atributos em que vem de uma requisição na assinitura do metodo deve ter a notação @RequestBody
 
 ### Erros
 <ol>
