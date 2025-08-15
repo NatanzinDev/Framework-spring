@@ -8,8 +8,11 @@ application properties → Serve para colocar os parâmetros de informações do
 
 Controller é responsável por expor a API para que o browser acesse.
 
+Atributos em que vem de uma requisição na assinitura do metodo deve ter a notação @RequesBody
+
 ### Erros
 <ol>
   <li>Os pacotes tem que está corretamente organizados na hierarquia de pacotes, para evitar erros com not found</li>
   <li>Case sensitive, não colocar letras maiusculas em caminhos getmapping por exemplo</li>
+  <li>As letras do json na requisição deve estar todas de acordo com a nomeclatura original da classe, pois mesmo que esteja apenas uma letra errada esse atributo com a letra errada vai ficar null</li>
 </ol>
