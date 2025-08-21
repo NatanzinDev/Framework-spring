@@ -12,6 +12,8 @@ Classe controller deve conter a notação @RestController
 
 Atributos em que vem de uma requisição na assinitura do metodo deve ter a notação @RequestBody
 
+# Site para ver resposta http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status
+
 ### Erros
 <ol>
   <li>Os pacotes tem que está corretamente organizados na hierarquia de pacotes, para evitar erros com not found</li>
