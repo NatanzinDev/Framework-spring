@@ -12,7 +12,10 @@ Classe controller deve conter a notação @RestController
 
 Atributos em que vem de uma requisição na assinitura do metodo deve ter a notação @RequestBody
 
-# Site para ver resposta http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status
+Site para ver resposta http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status
+
+ResponseEntity é uma reposta http que o corpo pode conter um objeto, pode ser usado para retornar resposta em funções
+Response<NomeDoObjeto>
 
 ### Erros
 <ol>
