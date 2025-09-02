@@ -19,6 +19,8 @@ ResponseEntity<NomeDoObjeto>
 
 Camada de serviço faz a ligação entre o controller e o model, é onde vai ficar as regras de negócio, já que não uma boa pratica sobrecarregar o controller com regras de negócio.
 
+Na injeção de dependencia você delega o instanciamento e a alocação de memoria tudo para JVM.
+
 @Autowired
 Injeção de dependência, se não existir instância ela vai cuidar da instância para você.
 
