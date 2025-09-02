@@ -17,6 +17,8 @@ Site para ver resposta http: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/R
 ResponseEntity é uma reposta http que o corpo pode conter um objeto, pode ser usado para retornar resposta em funções<br>
 ResponseEntity<NomeDoObjeto>
 
+Camada de serviço faz a ligação entre o controller e o model, é onde vai ficar as regras de negócio, já que não uma boa pratica sobrecarregar o controller com regras de negócio.
+
 ### Erros
 <ol>
   <li>Os pacotes tem que está corretamente organizados na hierarquia de pacotes, para evitar erros com not found</li>
