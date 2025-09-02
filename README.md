@@ -18,7 +18,8 @@ ResponseEntity é uma reposta http que o corpo pode conter um objeto, pode ser u
 ResponseEntity<NomeDoObjeto>
 
 Camada de serviço faz a ligação entre o controller e o model, é onde vai ficar as regras de negócio, já que não uma boa pratica sobrecarregar o controller com regras de negócio.
-
+### Lembrando 
+Interface: Seria um contrato que contém todas as funcionalidas que você quer que um objeto implemente.
 ### Erros
 <ol>
   <li>Os pacotes tem que está corretamente organizados na hierarquia de pacotes, para evitar erros com not found</li>
