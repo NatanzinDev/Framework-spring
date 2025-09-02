@@ -18,6 +18,10 @@ ResponseEntity é uma reposta http que o corpo pode conter um objeto, pode ser u
 ResponseEntity<NomeDoObjeto>
 
 Camada de serviço faz a ligação entre o controller e o model, é onde vai ficar as regras de negócio, já que não uma boa pratica sobrecarregar o controller com regras de negócio.
+
+@Autowired
+Injeção de dependência, se não existir instância ela vai cuidar da instância para você.
+
 ### Lembrando 
 Interface: Seria um contrato que contém todas as funcionalidas que você quer que um objeto implemente.
 ### Erros
