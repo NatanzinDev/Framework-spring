@@ -45,6 +45,26 @@ Servicelmplementação - Implementações variávels destes serviços de modo a,
 
 <img width="1478" height="822" alt="Captura de tela 2025-09-03 103013" src="https://github.com/user-attachments/assets/02f6c9d0-d78b-4f14-9b9b-4825e06fd099" />
 
+## Primeiros passos com JPA
+JPA --> Java Persistence API
+
+JPA: É a interface que definem como os objetos devem ser persistidos no banco de dados. É a planta da casa, tem as regras que vão definir o que vai ser feito.<br>
+Hibernate: Pega as regras definidas pelo JPA e faz o trabalho pesado de converter os objetos Java em comandos SQL para interagir com o banco de dados. É a casa construida, realiza a persistência dos dados.
+
+O que é obrigatório para o JPA dentro da classe de model é apenas o get e setters, mas também pode possuir construtores desde que contenha um construtor sem parametros.
+Todos atributos da classe de model devem ser private.
+
+@Entity serve para indicar que a classe corresponde a uma entidade armazenavel.
+
+Se o nome da classe de modelo não coincide com o nome da tabela no banco se usa a anotação @Table(name="nomedatabelanobanco").
+
+@Column serve para indicar que um atributo da classe corresponde a uma coluna da table, se o nome do atributo e o nome da coluna não coincide se usa @Column(name="nomedacoluna")
+length = 100, exemplo de atributo de tamanho, usado dentro do parentese do @Column, atributos de dentro do column são separados por virgula.
+nullable = false, para que o atributo não possa ser null.
+
+@Id serve para informar que o atributo é chave primária.
+
+@GeneratedValue(strategy = GenerationType.IDENTITY) Para informar que o atributo tem auto incremento, GenerationType.IDENTITY é o que mais se usa no caso do MySQL.
 
 ## Lembrando 
 Interface: Seria um contrato que contém todas as funcionalidas que você quer que um objeto implemente.
@@ -54,4 +74,5 @@ Interface: Seria um contrato que contém todas as funcionalidas que você quer q
   <li>Case sensitive, não colocar letras maiusculas em caminhos getmapping por exemplo</li>
   <li>As letras do json na requisição deve estar todas de acordo com a nomeclatura original da classe, pois mesmo que esteja apenas uma letra errada esse atributo com a letra errada vai ficar null</li>
   <li>A requisições espera um formato json, se não estiver de acordo vai ocorrer o erro 415</li>
+  <li>Eclipse não vai detectar erro sintatico no application.properties</li>
 </ol>
