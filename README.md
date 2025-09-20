@@ -79,4 +79,5 @@ Interface: Seria um contrato que contém todas as funcionalidas que você quer q
   <li>As letras do json na requisição deve estar todas de acordo com a nomeclatura original da classe, pois mesmo que esteja apenas uma letra errada esse atributo com a letra errada vai ficar null</li>
   <li>A requisições espera um formato json, se não estiver de acordo vai ocorrer o erro 415</li>
   <li>Eclipse não vai detectar erro sintatico no application.properties</li>
+  <li>Não deixar espaços no final do atributos do application.propierts</li>
 </ol>
