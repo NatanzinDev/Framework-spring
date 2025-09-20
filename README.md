@@ -66,6 +66,8 @@ nullable = false, para que o atributo não possa ser null.
 
 @GeneratedValue(strategy = GenerationType.IDENTITY) Para informar que o atributo tem auto incremento, GenerationType.IDENTITY é o que mais se usa no caso do MySQL.
 
+O arquivo application.properties é o arquivo que configura o projeto, é onde vai ficar os parametros de conexão com o BD.
+
 ## Lembrando 
 Interface: Seria um contrato que contém todas as funcionalidas que você quer que um objeto implemente.
 ## Erros
