@@ -68,6 +68,8 @@ nullable = false, para que o atributo não possa ser null.
 
 O arquivo application.properties é o arquivo que configura o projeto, é onde vai ficar os parametros de conexão com o BD.
 
+Se possuir algum o erro no application.properties aplicação não vai subir.
+
 ## Lembrando 
 Interface: Seria um contrato que contém todas as funcionalidas que você quer que um objeto implemente.
 ## Erros
