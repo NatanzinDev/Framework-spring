@@ -59,7 +59,7 @@ Todos atributos da classe de model devem ser private.
 Se o nome da classe de modelo não coincide com o nome da tabela no banco se usa a anotação @Table(name="nomedatabelanobanco").
 
 @Column serve para indicar que um atributo da classe corresponde a uma coluna da table, se o nome do atributo e o nome da coluna não coincide se usa @Column(name="nomedacoluna")
-length = 100, exemplo de atributo de tamanho, usado dentro do parentese do @Column, atributos de dentro do column são separados por virgula.
+length = 100, exemplo de tamanho de atributo, usado dentro do parentese do @Column, atributos de dentro do column são separados por virgula.
 nullable = false, para que o atributo não possa ser null.
 
 @Id serve para informar que o atributo é chave primária.
